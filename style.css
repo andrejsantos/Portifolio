@@ -1,0 +1,6 @@
+*{ /*Configuraçãop da pagina inteira*/
+    margin: 0; /*magem de fora para dentro*/
+    padding: 0; /*Margem de dentro para fora*/
+    box-sizing: border-box;/*Calcula as distancias automaticas*/
+    font-family: 'Signika', sans-serif; /*importando fonte linkada*/
+}
