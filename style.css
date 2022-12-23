@@ -52,10 +52,12 @@ li a:hover {
 }
 
 .meu-nome {
+    height: auto;
+    width: auto;
     color: #D4B483;
     position: absolute; /*Eu consigo mexer ele para onde eu quiser com essa tag*/
     top: 50%;
-    left: 40%;
+    left: 33%;
 }
 
 .meu-nome span {
@@ -68,7 +70,7 @@ section a {
     align-items: center;
     position: absolute;
     top: 25%;
-    left: 80%;
+    left: 70.95%;
     font-weight: 700;
     color: #D4B483;
     transition: 0.5s;
@@ -85,7 +87,7 @@ section a:hover {
     align-items: center;
     position: absolute;
     top: 25%;
-    left: 78.2%;
+    left: 69.2%;
     font-weight: 700;
     transition: 0.5s;
     cursor:pointer;
@@ -106,10 +108,11 @@ section {
 }
 
 section img {
+    
     height: 300px;
     border-radius: 160px;
     border: 3px solid black;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 section h2 {
@@ -119,6 +122,10 @@ section h2 {
 section p {
     color: white;
     
+}
+.sobre {
+    height: auto;
+    width: auto;
 }
 
 button {
