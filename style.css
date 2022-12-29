@@ -5,7 +5,7 @@
     font-family: 'Signika', sans-serif; /*importando fonte linkada*/
 }
 body{
-    background-image:  linear-gradient(to top, #182c3a, #7d8883);/*Fazendo um degradê*/
+    background-image:  linear-gradient(to top, #142430, #0f100f);/*Fazendo um degradê*/
     background-attachment: fixed;/*Mesmo rolando a tela ele fica fixo*/
     
 }
@@ -16,22 +16,28 @@ body{
 }
 
 nav {
-    display: flex;/*Da flexibilidade para movimentar os items*/
+    text-align: end;
     align-items: center;/*Na horizontal está bem espaçado*/
     justify-content: space-between;/*Na verdical espaçados um do outro*/
     padding-left: 30px;/*Distanciando da borda esquerda em pixels*/
     padding-right: 30px;
-    padding-top: 25px; /*Distanciando da borda de cima*/
+    padding-top: 10px; /*Distanciando da borda de cima*/
 }
 
 .portifolio {
+    margin-right: 0px;
+    margin-left: 23px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    height: 15px;
+    width: 160px;
     color: #D4B483;
     font-size: 35px;
     
 }
 a {
+    text-decoration: none;
     display: flex;
-    align-items: center;
     color: #D4B483;
 }
 
@@ -46,18 +52,17 @@ li {
 }
 
 li a:hover {
+    text-decoration: underline;
     color: #8FF7A7;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .meu-nome {
-    height: auto;
-    width: auto;
+    position: inherit;
     color: #D4B483;
-    position: absolute; /*Eu consigo mexer ele para onde eu quiser com essa tag*/
-    top: 50%;
-    left: 33%;
+    top: 5%;
+    left: 40%;
 }
 
 .meu-nome span {
@@ -65,82 +70,109 @@ li a:hover {
     border: 2px solid rgb(107, 34, 34);
     border-radius: 100%;
 }
-section a {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 25%;
-    left: 70.95%;
-    font-weight: 700;
-    color: #D4B483;
-    transition: 0.5s;
-    cursor:pointer;
-}
 
-section a:hover {
+main a:hover {
     cursor: pointer;
     color: #8FF7A7;
 }
-.meme {
-    color: #8FF7A7;
+
+main {
+    background-image:  linear-gradient(to top, #142430, #0f100f);
+    background-attachment: fixed;
+    border: 2px solid white;
+    border-radius: 40px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 25%;
-    left: 69.2%;
-    font-weight: 700;
-    transition: 0.5s;
-    cursor:pointer;
-}
-
-section a span:hover {
-    color: #D4B483;
-}
-
-section {
-    position: absolute;
-    top: 45%;
-    left: 15%;
-    display: flex;
-    align-items: center; /*Centralizando itens*/
-    padding: 60px 0; /*60px Espaçamento para cima e para baixo, 0px espacamento para direita e*/
+    padding: 75px 20px; /*60px Espaçamento para cima e para baixo, 0px espacamento para direita e*/
 
 }
 
-section img {
-    
+main img {
     height: 300px;
     border-radius: 160px;
     border: 3px solid black;
-    margin-right: 40px;
+    margin: 5px;
 }
 
-section h2 {
+main h2 {
     color: #D4B483;
 }
 
-section p {
+main p {
     color: white;
     
 }
-.sobre {
-    height: auto;
-    width: auto;
-}
 
 button {
+    position: absolute;
+    bottom: 2cm;
     color: aliceblue;
     height: 70px;
     width: 190px;
-    margin-top: 15px;
     border: 2px solid rgb(241, 231, 231);
-    border-radius: 150px;
+    border-radius: 40px;
     background: #165d91;
     
 }
 
 button:hover {
-    background-color: #792440;
+    background-color: #00933D;
     transition: 0.5s;
     cursor: pointer;
+}
+footer div{
+    background-color: #38383f;
+    display: inline-block; /*Deixando um do lado do outro*/
+    align-items: center;/*Na horizontal está bem espaçado*/
+    justify-content: space-between;/*Na verdical espaçados um do outro*/
+}
+
+.GitHub {
+    margin: 0px 10px;
+    padding: 50px;
+    height: 6cm;
+    width: 6cm;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.Linked {
+    margin: 0px 10px;
+    padding: 50px;
+    height: 6cm;
+    width: 6cm;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.Gmail {
+    margin: 0px 10px;
+    padding: 50px;
+    height: 6cm;
+    width: 6cm;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.Discord {
+    margin: 0px 10px;
+    padding: 50px;
+    height: 6cm;
+    width: 6cm;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.WP {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    position: fixed;
+    left: 92%;
+    top: 85%;
+    
+
 }

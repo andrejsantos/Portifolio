@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,34 +10,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="principal">
-        <nav>
-            <h1 class="portifolio">Portifólio</h1>
-            <ul>
-                <li><a href="">Me conheça</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Redes</a></li>
-            </ul>
-        </nav>
-    </div>
+    <header class="principal"> <!--Cabeçalho-->
+        <h1 class="portifolio">Portifólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="">Me conheça</a></li>
+                    <li><a href="">Projetos</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Redes</a></li>
+                </ul>
+            </nav>
+            <div class="WP">
+                <a href="https://wa.me/5511958356929" target="_blank"><img src="https://www.svgrepo.com/show/205308/whatsapp.svg" alt="Whatsapp"height="100cm" width="100cm"></a>
+            </div>
+    </header>
 
-    <div class="meu-nome">
-        <h1>André <span>J.S</span></h1>
-        <h3>desenvolvedor de games</h3>
-    </div>
+    <main class="sobre"> <!--Conteudo principal-->
+        <div class="meu-nome">
+            <h1>André <span>J.S</span></h1>
+            <h3>desenvolvedor de games</h3>
+        </div>
 
-    <section class="sobre">
-        <img src="img/Eu.jpg" alt="Eu">
+        <picture>
+            <img src="img/Eu.jpg" alt="Eu">
+        </picture>
+
         <div>
-            <a href="https://dosedgame.itch.io/" target="_blank" rel="external">Dose D' Game</a>
-            <a class="meme" href="https://bit.ly/hartbeat2021" target="_blank" rel="external" ><span>&copy</span></a>
             <h2>Sobre mim</h2>
+
             <p>Eu desenvolvo em CShap, JavaScript, Python, HTML, CSS. <br>
             Tenho como projeto pessoal uma pagina de vendas online. </p>
-            <button>Entre em contato</button>
+
         </div>
-    </section>
+    </main>
+
+    <center>
+        <footer><!--Rodapé-->
+                <div class="GitHub">
+                    <a href="https://github.com/andrejsantos" target="_blank" >
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+                    </a>
+                </div>
+        
+                <div class="Linked">
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-de-jesus-santos-680933213/" target="_blank">
+                        <img src="https://www.svgrepo.com/show/205292/linkedin.svg" />
+                    </a>
+                </div>
+                <div class="Gmail">
+                    <a href="mailto:andrejesus867@gmail.com" target="_blank">
+                        <img src="https://www.svgrepo.com/show/243092/gmail.svg" height="120cm" width="120cm"/>
+                    </a>
+                </div>
+                <div class="Discord">
+                    <a href="https://discord.gg/ADrWeebQ" target="_blank">
+                        <img src="https://www.svgrepo.com/show/343548/discord-communication-interaction-message-network.svg" alt="Discord" height="120cm" width="120cm" />
+                    </a>
+                </div>
+        </footer>
+    </center>
 
 </body>
 </html>
