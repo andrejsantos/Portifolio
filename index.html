@@ -14,10 +14,10 @@
         <h1 class="portifolio">Portifólio</h1>
             <nav>
                 <ul>
-                    <li><a href="">Me conheça</a></li>
-                    <li><a href="">Projetos</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Redes</a></li>
+                    <li><a href="#Eu">Me conheça</a></li>
+                    <li><a href="#Projetos"">Projetos</a></li>
+                    <li><a href="#Redes">Contato</a></li>
+                    <li><a href="#Redes">Redes</a></li>
                 </ul>
             </nav>
             <div class="WP">
@@ -25,46 +25,83 @@
             </div>
     </header>
 
-    <main class="sobre"> <!--Conteudo principal-->
-        <div class="meu-nome">
-            <h1>André <span>J.S</span></h1>
-            <h3>desenvolvedor de games</h3>
-        </div>
+    <main> <!--Conteudo principal-->
+        <section class="Sobre-mim" id="Eu"><!--Carteirinha-->
+            <div class="meu-nome">
+                <h1>André <span>J.S</span></h1>
+                <h3>desenvolvedor de games</h3>
+            </div>
+            <picture>
+                <img src="img/Eu.jpg" alt="Eu">
+            </picture>
+            <div class="sobre">
+                <h2>Sobre mim</h2>
+                <p>Eu desenvolvo em CShap, JavaScript, Python, HTML, CSS. <br>
+                Tenho como projeto pessoal uma pagina de vendas online. </p>
+            </div>
+        </section><!--Carteirinha-->
 
-        <picture>
-            <img src="img/Eu.jpg" alt="Eu">
-        </picture>
+        <center>
+            <section class="Projetos" id="Projetos">
+                    <h2 id="Titulo">Projetos</h2>
 
-        <div>
-            <h2>Sobre mim</h2>
+                    <a class="Bloco-Projeto" href="">
+                        <div>
+                            <img src="img/Processando.svg" alt="">
+                            <p>Projeto em andamento...</p>
 
-            <p>Eu desenvolvo em CShap, JavaScript, Python, HTML, CSS. <br>
-            Tenho como projeto pessoal uma pagina de vendas online. </p>
+                        </div>
+                    </a>
 
-        </div>
+                    <a class="Bloco-Projeto" href="">
+                        <div>
+                            <img src="img/Processando.svg" alt="">
+                            <p>Projeto em andamento...</p>
+
+                        </div>
+                    </a>
+
+                    <a class="Bloco-Projeto" href="">
+                        <div>
+                            <img src="img/Processando.svg" alt="">
+                            <p>Projeto em andamento...</p>
+
+                        </div>
+                    </a>
+
+                    <a class="Bloco-Projeto" href="">
+                        <div>
+                            <img src="img/Processando.svg" alt="">
+                            <p>Projeto em andamento...</p>
+
+
+                        </div>
+                    </a>
+            </section>
+        </center>
     </main>
 
     <center>
-        <footer><!--Rodapé-->
-                <div class="GitHub">
+        <footer id="Redes"><!--Rodapé-->
+                <div class="Bloco-Redes">
                     <a href="https://github.com/andrejsantos" target="_blank" >
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+                        <img src="img/Redes/github-original-wordmark.svg" />
                     </a>
                 </div>
         
-                <div class="Linked">
+                <div class="Bloco-Redes">
                     <a href="https://www.linkedin.com/in/andr%C3%A9-de-jesus-santos-680933213/" target="_blank">
-                        <img src="https://www.svgrepo.com/show/205292/linkedin.svg" />
+                        <img src="img/Redes/linkedin.svg" />
                     </a>
                 </div>
-                <div class="Gmail">
+                <div class="Bloco-Redes">
                     <a href="mailto:andrejesus867@gmail.com" target="_blank">
-                        <img src="https://www.svgrepo.com/show/243092/gmail.svg" height="120cm" width="120cm"/>
+                        <img src="img/Redes/Gmail.svg"/>
                     </a>
                 </div>
-                <div class="Discord">
+                <div class="Bloco-Redes">
                     <a href="https://discord.gg/ADrWeebQ" target="_blank">
-                        <img src="https://www.svgrepo.com/show/343548/discord-communication-interaction-message-network.svg" alt="Discord" height="120cm" width="120cm" />
+                        <img src="img/Redes/Discord.svg" alt="Discord" />
                     </a>
                 </div>
         </footer>

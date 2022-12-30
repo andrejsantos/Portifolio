@@ -1,5 +1,5 @@
 *{ /*Configuraçãop da pagina inteira*/
-    margin: 0; /*magem de fora para dentro*/
+    margin: 10; /*magem de fora para dentro*/
     padding: 0; /*Margem de dentro para fora*/
     box-sizing: border-box;/*Calcula as distancias automaticas*/
     font-family: 'Signika', sans-serif; /*importando fonte linkada*/
@@ -13,6 +13,9 @@ body{
 .principal {
     height: 100vh;/*Ocupando a tela inteira*/
     width: 100%;/*Ocupando a tela inteira*/
+    background-image:url(img/Programação.png);
+    background-size: cover;/*Estica a imagem*/
+    background-position: center;/*Centraliza*/
 }
 
 nav {
@@ -61,8 +64,16 @@ li a:hover {
 .meu-nome {
     position: inherit;
     color: #D4B483;
-    top: 5%;
-    left: 40%;
+    top: 0%;
+    left: 35%;
+}
+.meu-nome h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.meu-nome h3 {
+    margin-top: 0px;
 }
 
 .meu-nome span {
@@ -71,27 +82,23 @@ li a:hover {
     border-radius: 100%;
 }
 
-main a:hover {
-    cursor: pointer;
-    color: #8FF7A7;
-}
-
-main {
+.Sobre-mim {
     background-image:  linear-gradient(to top, #142430, #0f100f);
     background-attachment: fixed;
     border: 2px solid white;
     border-radius: 40px;
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 5%;
     display: flex;
     align-items: center;
-    padding: 75px 20px; /*60px Espaçamento para cima e para baixo, 0px espacamento para direita e*/
+    padding: 40px 20px;
+    padding-top: 10px;
 
 }
 
 main img {
-    height: 300px;
+    height: 200px;
     border-radius: 160px;
     border: 3px solid black;
     margin: 5px;
@@ -105,65 +112,66 @@ main p {
     color: white;
     
 }
+.sobre {
+    padding-left: 20px;
+    padding-right: 20px;
 
-button {
-    position: absolute;
-    bottom: 2cm;
-    color: aliceblue;
-    height: 70px;
-    width: 190px;
-    border: 2px solid rgb(241, 231, 231);
-    border-radius: 40px;
-    background: #165d91;
-    
+}
+.sobre h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.sobre p{
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-button:hover {
-    background-color: #00933D;
-    transition: 0.5s;
-    cursor: pointer;
+h2#titulo {
+    display: inline-flex;
+    position: relative;
 }
-footer div{
+
+.Projetos {
+    height: 500px;
+}
+.Projetos img {
+    border: none;
+    height: 100px;
+    align-items: top;
+}
+.Bloco-Projeto {
+    display: inline-block;
+    align-items: center;
+    margin: 5px 5px;
+    padding: 5px;
+    height: 6cm;
+    width: 6cm;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+footer {
+    margin-top: 300px;
+}
+.Bloco-Redes{
+    box-shadow: -4px 1px 0px 0px rgb(255 255 255 / 78%);
     background-color: #38383f;
     display: inline-block; /*Deixando um do lado do outro*/
     align-items: center;/*Na horizontal está bem espaçado*/
     justify-content: space-between;/*Na verdical espaçados um do outro*/
 }
 
-.GitHub {
-    margin: 0px 10px;
-    padding: 50px;
-    height: 6cm;
-    width: 6cm;
-    border: 2px solid white;
-    border-radius: 10px;
+.Bloco-Redes:hover {
+    cursor: pointer;
+    box-shadow: -4px 1px 0px 0px #61f283;
 }
 
-.Linked {
-    margin: 0px 10px;
-    padding: 50px;
-    height: 6cm;
-    width: 6cm;
+.Bloco-Redes {
+    margin: 20px  10px 10px 10px;
+    padding: 20px 20px;
+    height: 3cm;
+    width: 3cm;
     border: 2px solid white;
-    border-radius: 10px;
-}
-
-.Gmail {
-    margin: 0px 10px;
-    padding: 50px;
-    height: 6cm;
-    width: 6cm;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-
-.Discord {
-    margin: 0px 10px;
-    padding: 50px;
-    height: 6cm;
-    width: 6cm;
-    border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 150px;
 }
 
 .WP {
