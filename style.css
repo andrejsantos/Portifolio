@@ -83,7 +83,7 @@ li a:hover {
 }
 
 .Sobre-mim {
-    background-image:  linear-gradient(to top, #111a22, #1a355e);
+    background-image: linear-gradient(to top, #111a22, #1a355e);
     background-attachment: fixed;
     border: 2px solid white;
     border-radius: 40px;
@@ -113,8 +113,10 @@ main p {
     
 }
 .sobre {
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 2cm;
+    width: 12cm;
+    padding: auto;
+    margin: 20px;
 
 }
 .sobre h2{
@@ -126,29 +128,55 @@ main p {
     margin-top: 0px;
 }
 
-h2#titulo {
-    display: inline-flex;
-    position: relative;
+.projetos div {
+    height: 10px;
+}
+h2#Titulo {
+    margin: 10px;
+    
+}
+.Projetos p {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+.Titulo-projeto {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
 }
 
 .Projetos {
-    height: 500px;
+    height: auto;
+    width: auto;
 }
 .Projetos img {
     border: none;
+    border-radius: 0;
     height: 100px;
     align-items: top;
+
 }
+
 .Bloco-Projeto {
+    box-shadow: -4px 1px 0px 0px rgb(255 255 255 / 78%);
+    background-color: #02047462;
     display: inline-block;
-    align-items: center;
     margin: 5px 5px;
     padding: 5px;
-    height: 6cm;
-    width: 6cm;
+    height: 7cm;
+    width: 7cm;
     border: 2px solid white;
     border-radius: 10px;
 }
+
+.Bloco-Projeto:hover {
+    cursor: pointer;
+    box-shadow: -4px 1px 0px 0px #61f283;
+}
+
 footer {
     margin-top: 300px;
 }
