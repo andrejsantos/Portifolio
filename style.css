@@ -5,8 +5,10 @@
     font-family: 'Signika', sans-serif; /*importando fonte linkada*/
 }
 body{
-    background-image:  linear-gradient(to top, #142430, #0f100f);/*Fazendo um degradê*/
-    background-attachment: fixed;/*Mesmo rolando a tela ele fica fixo*/
+    background-image: linear-gradient(to top, #142430, #0f100f);/*Fazendo um degradê*/
+    background-attachment: fixed;/*Mesmo rolando a tela ele 
+    fica fixo*/
+
     
 }
 
@@ -61,41 +63,59 @@ li a:hover {
     cursor: pointer;
 }
 
-.meu-nome {
-    position: inherit;
+/*Teste*/
+.Apresenta {
+    position: absolute;
+    top: 165px;
+    display: table-cell;
+    background-image: linear-gradient(to top, #111a22, #1a355e);
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    margin: 65px 10px 30px 30px;
+    max-width: 790px;
+    min-width: 300px;
+}
+.txt1 {
+    left: 135px;
+    position: relative;
+    bottom: 104px;
     color: #D4B483;
-    top: 0%;
-    left: 35%;
-}
-.meu-nome h1 {
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin: 0%;
+    padding: 0%; 
 }
 
-.meu-nome h3 {
-    margin-top: 0px;
-}
-
-.meu-nome span {
+.txt1 span {
     color: #8FF7A7;
     border: 2px solid rgb(107, 34, 34);
     border-radius: 100%;
 }
 
-.Sobre-mim {
-    background-image: linear-gradient(to top, #111a22, #1a355e);
-    background-attachment: fixed;
-    border: 2px solid white;
-    border-radius: 40px;
-    position: absolute;
-    top: 40%;
-    left: 5%;
-    display: flex;
-    align-items: center;
-    padding: 40px 20px;
-    padding-top: 10px;
-
+.txt2 {
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+    color: #D4B483;
+    margin: 1px;
+    padding: 1px;
 }
+
+.txt3 {
+    color: white;
+    position: relative;
+    bottom: 55px;
+    margin: 1px;
+    padding: 1px;
+}
+
+.Apresenta img {
+    height: 130px;
+    border-radius: 160px;
+    border: 3px solid black;
+    margin: 1px;
+}
+
+/*Teste*/
 
 main img {
     height: 200px;
@@ -111,21 +131,6 @@ main h2 {
 main p {
     color: white;
     
-}
-.sobre {
-    height: 2cm;
-    width: 12cm;
-    padding: auto;
-    margin: 20px;
-
-}
-.sobre h2{
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-.sobre p{
-    margin-bottom: 0px;
-    margin-top: 0px;
 }
 
 .projetos div {
@@ -153,8 +158,8 @@ h2#Titulo {
     width: auto;
 }
 .Projetos img {
-    border: none;
-    border-radius: 0;
+    border: 2px solid white;
+    border-radius: 10px;
     height: 100px;
     align-items: top;
 
@@ -203,12 +208,9 @@ footer {
 }
 
 .WP {
-    height: 30px;
-    width: 30px;
-    position: absolute;
+    margin: -1%;
+    margin-bottom: 1px;
     position: fixed;
-    left: 92%;
-    top: 85%;
-    
-
+    right: 2%;
+    bottom: 2%;
 }
