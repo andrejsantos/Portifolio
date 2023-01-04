@@ -57,13 +57,14 @@ li {
 }
 
 li a:hover {
-    text-decoration: underline;
-    color: #8FF7A7;
-    transition: 0.5s;
+    background-color: #8FF7A7;
+    color: #000000;
+    border: 3px solid rgb(107, 34, 34);;
+    border-radius: 7px;
+    transition: 0.8s;
     cursor: pointer;
 }
 
-/*Teste*/
 .Apresenta {
     position: absolute;
     top: 165px;
@@ -85,6 +86,12 @@ li a:hover {
     padding: 0%; 
 }
 
+p {
+    color: #9b7676;
+    font-weight: 700;
+    font-size: 17px;
+}
+
 .txt1 span {
     color: #8FF7A7;
     border: 2px solid rgb(107, 34, 34);
@@ -92,6 +99,7 @@ li a:hover {
 }
 
 .txt2 {
+    min-width: 320px;
     text-align: center;
     position: relative;
     bottom: 60px;
@@ -103,6 +111,7 @@ li a:hover {
 .txt3 {
     color: white;
     position: relative;
+    font-weight: 200;
     bottom: 55px;
     margin: 1px;
     padding: 1px;
@@ -114,8 +123,17 @@ li a:hover {
     border: 3px solid black;
     margin: 1px;
 }
+.Skils img {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: none;
+}
 
-/*Teste*/
+;.Skils ul {
+    margin: 0px;
+}
+
 
 main img {
     height: 200px;
