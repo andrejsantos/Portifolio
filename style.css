@@ -1,6 +1,6 @@
 * {
     /*Configuraçãop da pagina inteira*/
-    margin: 10;
+    margin: 0;
     /*magem de fora para dentro*/
     padding: 0;
     /*Margem de dentro para fora*/
@@ -12,8 +12,8 @@
 
 body {
     background-image: linear-gradient(to top, #142430, #0f100f);
+
     /*Fazendo um degradê*/
-    background-attachment: fixed;
     /*Mesmo rolando a tela ele 
     fica fixo*/
 
@@ -26,10 +26,9 @@ body {
     width: 100%;
     /*Ocupando a tela inteira*/
     background-image: url(img/Programação.png);
-    background-size: cover;
-    /*Estica a imagem*/
-    background-position: center;
-    /*Centraliza*/
+    background-size: 40cm;
+    background-position: 3%;
+
 }
 
 nav {
