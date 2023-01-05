@@ -127,6 +127,10 @@ p#Skils {
     border-radius: 100%;
 }
 
+p.txt1 {
+    max-width: 200px;
+}
+
 .txt2 {
     min-width: 320px;
     text-align: center;
