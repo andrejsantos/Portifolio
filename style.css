@@ -1,32 +1,48 @@
-*{ /*Configuraçãop da pagina inteira*/
-    margin: 10; /*magem de fora para dentro*/
-    padding: 0; /*Margem de dentro para fora*/
-    box-sizing: border-box;/*Calcula as distancias automaticas*/
-    font-family: 'Signika', sans-serif; /*importando fonte linkada*/
+* {
+    /*Configuraçãop da pagina inteira*/
+    margin: 10;
+    /*magem de fora para dentro*/
+    padding: 0;
+    /*Margem de dentro para fora*/
+    box-sizing: border-box;
+    /*Calcula as distancias automaticas*/
+    font-family: 'Signika', sans-serif;
+    /*importando fonte linkada*/
 }
-body{
-    background-image: linear-gradient(to top, #142430, #0f100f);/*Fazendo um degradê*/
-    background-attachment: fixed;/*Mesmo rolando a tela ele 
+
+body {
+    background-image: linear-gradient(to top, #142430, #0f100f);
+    /*Fazendo um degradê*/
+    background-attachment: fixed;
+    /*Mesmo rolando a tela ele 
     fica fixo*/
 
-    
+
 }
 
 .principal {
-    height: 100vh;/*Ocupando a tela inteira*/
-    width: 100%;/*Ocupando a tela inteira*/
-    background-image:url(img/Programação.png);
-    background-size: cover;/*Estica a imagem*/
-    background-position: center;/*Centraliza*/
+    height: 100vh;
+    /*Ocupando a tela inteira*/
+    width: 100%;
+    /*Ocupando a tela inteira*/
+    background-image: url(img/Programação.png);
+    background-size: cover;
+    /*Estica a imagem*/
+    background-position: center;
+    /*Centraliza*/
 }
 
 nav {
     text-align: end;
-    align-items: center;/*Na horizontal está bem espaçado*/
-    justify-content: space-between;/*Na verdical espaçados um do outro*/
-    padding-left: 30px;/*Distanciando da borda esquerda em pixels*/
+    align-items: center;
+    /*Na horizontal está bem espaçado*/
+    justify-content: space-between;
+    /*Na verdical espaçados um do outro*/
+    padding-left: 30px;
+    /*Distanciando da borda esquerda em pixels*/
     padding-right: 30px;
-    padding-top: 10px; /*Distanciando da borda de cima*/
+    padding-top: 10px;
+    /*Distanciando da borda de cima*/
 }
 
 .portifolio {
@@ -38,8 +54,9 @@ nav {
     width: 160px;
     color: #D4B483;
     font-size: 35px;
-    
+
 }
+
 a {
     text-decoration: none;
     display: flex;
@@ -49,17 +66,22 @@ a {
 li {
     display: flex;
     color: #D4B483;
-    list-style: none; /*Tirando a marcação de lista*/
-    display: inline-block; /*Deixando um do lado do outro*/
+    list-style: none;
+    /*Tirando a marcação de lista*/
+    display: inline-block;
+    /*Deixando um do lado do outro*/
     font-size: 17px;
-    font-weight: 700; /*Grosura da fonte "Só serve se a fonte que você pegou tem essa grossura"*/
-    margin-right: 10px; /*Aplicando margem para direita "Entre eles"*/
+    font-weight: 700;
+    /*Grosura da fonte "Só serve se a fonte que você pegou tem essa grossura"*/
+    margin-right: 10px;
+    /*Aplicando margem para direita "Entre eles"*/
 }
 
 li a:hover {
     background-color: #8FF7A7;
     color: #000000;
-    border: 3px solid rgb(107, 34, 34);;
+    border: 3px solid rgb(107, 34, 34);
+    ;
     border-radius: 7px;
     transition: 0.6s;
     cursor: pointer;
@@ -67,8 +89,6 @@ li a:hover {
 
 .Apresenta {
     position: absolute;
-    top: 165px;
-    display: table-cell;
     background-image: linear-gradient(to top, #111a22, #1a355e);
     padding: 10px;
     border: 2px solid rgb(255, 255, 255);
@@ -77,13 +97,14 @@ li a:hover {
     max-width: 790px;
     min-width: 300px;
 }
+
 .txt1 {
     left: 135px;
     position: relative;
     bottom: 104px;
     color: #D4B483;
     margin: 0%;
-    padding: 0%; 
+    padding: 0%;
 }
 
 p {
@@ -95,7 +116,9 @@ p {
 
 p#Skils {
     text-align: center;
-    margin: 3px;
+    position: relative;
+    bottom: 30px;
+    margin: 5px;
 }
 
 .txt1 span {
@@ -118,7 +141,7 @@ p#Skils {
     color: white;
     position: relative;
     font-weight: 200;
-    bottom: 55px;
+    bottom: 60px;
     margin: 1px;
     padding: 1px;
 }
@@ -129,6 +152,13 @@ p#Skils {
     border: 3px solid black;
     margin: 1px;
 }
+.Skils {
+    margin: 0%;
+    position: relative;
+    bottom: 30px;
+    max-width: 500px;
+}
+
 .Skils img {
     width: 50px;
     height: 50px;
@@ -137,7 +167,7 @@ p#Skils {
 }
 
 ul.Skils {
-    margin: 1px 20px 0px 20px;
+    margin: 1px 0px 0px 0px;
     align-items: center;
 }
 
@@ -155,22 +185,25 @@ main h2 {
 
 main p {
     color: white;
-    
+
 }
 
 .projetos div {
     height: 10px;
 }
+
 h2#Titulo {
     margin: 10px;
-    
+
 }
+
 .Projetos p {
     margin: 0;
     padding: 0;
     height: auto;
     width: auto;
 }
+
 .Titulo-projeto {
     margin: 0;
     padding: 0;
@@ -182,6 +215,7 @@ h2#Titulo {
     height: auto;
     width: auto;
 }
+
 .Projetos img {
     border: 2px solid white;
     border-radius: 10px;
@@ -210,12 +244,16 @@ h2#Titulo {
 footer {
     margin-top: 300px;
 }
-.Bloco-Redes{
+
+.Bloco-Redes {
     box-shadow: -4px 1px 0px 0px rgb(255 255 255 / 78%);
     background-color: #38383f;
-    display: inline-block; /*Deixando um do lado do outro*/
-    align-items: center;/*Na horizontal está bem espaçado*/
-    justify-content: space-between;/*Na verdical espaçados um do outro*/
+    display: inline-block;
+    /*Deixando um do lado do outro*/
+    align-items: center;
+    /*Na horizontal está bem espaçado*/
+    justify-content: space-between;
+    /*Na verdical espaçados um do outro*/
 }
 
 .Bloco-Redes:hover {
@@ -224,7 +262,7 @@ footer {
 }
 
 .Bloco-Redes {
-    margin: 20px  10px 10px 10px;
+    margin: 20px 10px 10px 10px;
     padding: 20px 20px;
     height: 3cm;
     width: 3cm;
