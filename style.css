@@ -21,11 +21,12 @@ body {
 
 .principal {
     height: 100vh;
+    min-height: 600px;
     /*Ocupando a tela inteira*/
     width: 100%;
     /*Ocupando a tela inteira*/
     background-image: url(img/Programação.png);
-    background-size: contain;
+    background-size: cover;
     /*Estica a imagem*/
     background-position: center;
     /*Centraliza*/
@@ -37,10 +38,10 @@ nav {
     /*Na horizontal está bem espaçado*/
     justify-content: space-between;
     /*Na verdical espaçados um do outro*/
-    padding-left: 30px;
+    padding-left: 40px;
     /*Distanciando da borda esquerda em pixels*/
     padding-right: 30px;
-    padding-top: 10px;
+    padding-top: 40px;
     /*Distanciando da borda de cima*/
 }
 
@@ -80,21 +81,19 @@ li a:hover {
     background-color: #8FF7A7;
     color: #000000;
     border: 3px solid rgb(107, 34, 34);
-    ;
     border-radius: 7px;
     transition: 0.6s;
     cursor: pointer;
 }
 
 .Apresenta {
-    position: absolute;
     background-image: linear-gradient(to top, #111a22, #1a355e);
     padding: 10px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 40px;
-    margin: 65px 10px 30px 30px;
+    margin: 65px 10px 30px 50px;
     max-width: 790px;
-    min-width: 300px;
+    min-width: 335px;
 }
 
 .txt1 {
@@ -128,7 +127,7 @@ p#Skils {
 }
 
 p.txt1 {
-    max-width: 200px;
+    min-width: 185px;
 }
 
 .txt2 {
@@ -266,21 +265,10 @@ footer {
 }
 
 .Bloco-Redes {
-    margin: 20px 10px 10px 10px;
+    margin: 20px 10px 30px 10px;
     padding: 20px 20px;
     height: 3cm;
     width: 3cm;
     border: 2px solid white;
     border-radius: 150px;
-}
-
-.WP {
-    max-width: 500px;
-    min-width: 100px;
-    margin: 3%;
-    margin-bottom: 3%;
-    right: 2%;
-    bottom: 2%;
-    position: fixed;
-    display: flex;
 }
