@@ -57,8 +57,6 @@ nav {
 }
 
 a {
-    color: #0f100f;
-    border: 2px solid #0f100f;
     border-radius: 7px;
     text-decoration: none;
     display: flex;
