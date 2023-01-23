@@ -36,7 +36,6 @@ body {
 nav {
     box-sizing: border-box;
     text-align: end;
-
     /*Na verdical espaçados um do outro*/
     padding-left: 40px;
     /*Distanciando da borda esquerda em pixels*/
@@ -58,6 +57,9 @@ nav {
 }
 
 a {
+    color: #0f100f
+    border: 2px solid ;
+    border-radius: 7px;
     text-decoration: none;
     display: flex;
     color: #D4B483;
